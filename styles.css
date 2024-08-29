@@ -1,0 +1,29 @@
+body{
+margin: 0px;
+padding: 0px;
+display: flex;
+justify-content: center;
+
+}
+*{
+box-sizing: border-box;
+}
+img{
+width: 100%;
+overflow: hidden;
+
+
+}
+img+div{
+text-align: center;
+text-align-last: centre;
+}
+@media screen and (min-width:600px) {
+.item {
+display: inline-block;
+width: 22%;
+vertical-align: top;
+object-fit: cover;
+}
+    
+}
